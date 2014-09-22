@@ -11,7 +11,7 @@ An orphan is a copywriting term for a word that jumps to the next line in a body
 How orphanSlayer Works
 ======================
 
-This script ensures that the last two words in any HTML tag or selector you specify, are joined with a non-breaking-space ("&\nbsp;"). This ensures that at least two words will appear on the last line of any body of text (the selector/s you specify).
+This script ensures that the last two words in any HTML tag or selector you specify, are joined with a non-breaking-space ("\&nbsp;"). This ensures that at least two words will appear on the last line of any body of text (the selector/s you specify).
 
 How to Use it
 =============
