@@ -1,10 +1,8 @@
 /** ORPHAN SLAYER - The world's most irrelevant jQuery plugin **/
 var orphanSlayer = {
 
-	targets		: '#intro-banner h1, #intro-banner h3, #philosophy .cols p, #slides .text p, .part .box p, .box li, .slide h3, .slide p', // These are your selectors, regions where you want the orphans removed.
-	timer		: 1000, // Delay before running this script, in milliseconds (gives precedence to other scripts, given that this functionality is pretty irrelevant)
-	content		: '',
-	last		: ''
+	targets		: '#your-selector, .another-selector, p, .etc', // These are your selectors, regions where you want the orphans dealt with.
+	timer		: 1000 // Delay before running this script, in milliseconds (gives precedence to other scripts)
 
 }
 
