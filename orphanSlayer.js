@@ -14,12 +14,12 @@ setTimeout(function(){
 		orphanSlayer.last = orphanSlayer.content[orphanSlayer.content.length - 2] + '&nbsp;' + orphanSlayer.content[orphanSlayer.content.length - 1];
 		orphanSlayer.content[orphanSlayer.content.length - 2] = orphanSlayer.last;
 		
-		if (!(orphanSlayer.last.split('<').length > 1)) {
-		
+		if (!(orphanSlayer.last.split('<').length > 1) && (orphanSlayer.content.length > 2)) {
+			
 			orphanSlayer.content.splice((orphanSlayer.content.length - 1), 1);
 			orphanSlayer.content = orphanSlayer.content.join(' ');
-		
-			$(this).html(orphanSlayer.content);	
+			
+			$(this).html(orphanSlayer.content);
 			
 		}
 
